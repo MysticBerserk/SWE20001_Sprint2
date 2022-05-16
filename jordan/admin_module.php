@@ -12,6 +12,10 @@
 
     <body>
 
+        <?php
+            require_once ("navigation.php");
+        ?>
+
         <header><h1>Admin Module</h1></header>
 
         <aside>
@@ -81,39 +85,6 @@
                         <p>RM100.78</p>
                     </div>
                 </div>
-
-                <table>
-                    <tr>
-                      <th>ID</th>
-                      <th>Name</th>
-                      <th>Order</th>
-                      <th>Delivery</th>
-                    </tr>
-                    <tr>
-                      <td>101223358</td>
-                      <td>Jordan Seow</td>
-                      <td>1</td>
-                      <td>Self Pick Up</td>
-                    </tr>
-                    <tr>
-                        <td>101223359</td>
-                        <td>Chin Tu Fat</td>
-                        <td>1</td>
-                        <td>Truck</td>
-                    </tr>
-                    <tr>
-                        <td>101223359</td>
-                        <td>Sum Ting Wong</td>
-                        <td>1</td>
-                        <td>Truck</td>
-                    </tr>
-                    <tr>
-                        <td>101223360</td>
-                        <td>Lei Ying Low</td>
-                        <td>1</td>
-                        <td>Truck</td>
-                    </tr>
-                </table>
             </div>
         </form>
 

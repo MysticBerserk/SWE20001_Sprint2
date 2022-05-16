@@ -1,13 +1,12 @@
+/*Admin Module*/
+
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 a{
     text-decoration: none;
-}
-
-a:hover{
-    color: aqua;
+    color: black;
 }
 
 body{
@@ -58,31 +57,27 @@ aside li{
     margin-left: 150px;
 }
 
+
 .order_box{
     height: 100px;
-    width: 120px;
-    border: 1px solid black;
+    width: 125px;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 #888888;
     text-align: center;
-    padding-top: 10px;
-    margin: 10px;
+    margin: auto;
+    margin-top: 10px;
     background-color: white;
 }
 
 .order_image{
     height: 40px;
     width: 40px;
-    padding-top: 10px;
+    margin-top: 15px;
 }
 
 .order_text{
     font-size: small;
     padding: auto;
-}
-
-.order_a{
-    text-decoration: none;
 }
 
 .sales_box{
@@ -154,7 +149,7 @@ td{
     height: 25px;
 }
 
-/*Total Orders.html*/
+/*View Customer Orders*/
 
 .order1{
     margin-top: 100px;
@@ -163,33 +158,6 @@ td{
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
-}
-
-.order_box1{
-    height: 100px;
-    width: 120px;
-    border: 1px solid black;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 #888888;
-    text-align: center;
-    padding-top: 10px;
-    margin: 10px;
-    background-color: white;
-}
-
-.order_image1{
-    height: 40px;
-    width: 40px;
-    padding-top: 10px;
-}
-
-.order_text1{
-    font-size: small;
-    padding: auto;
-}
-
-.order_a1{
-    text-decoration: none;
 }
 
 .order_amount{
@@ -211,7 +179,7 @@ td{
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    height: 600px;
+    height: auto;
     background: white;
     box-shadow: 0px 4px 8px #888888;
 }
@@ -220,81 +188,87 @@ td{
     width: 100%;
     height: 40px;
     background: #DEDEDE;
-    margin-left: auto;
     display: flex;
-    column-gap: 15%;
 }
 
-.order_list_attributes1{
+.order_header_attr{
+    margin-right: auto;
     margin-left: auto;
-    margin-right: auto; 
+    font-weight: bold;
 }
 
 .order_list_row{
     display: block;
-    background-color: #F2F2F2;
-    height: 125px;
-    margin-bottom: 10px;
 }
 
-.order_image_set{
-    margin-top: 20px;
-    margin-left: 20px;
+.order_list_flex{
     display: flex;
-    flex-direction: row;
-    column-gap: 10px;
-}
-
-.order_list_image{
-    width: 80px;
-    height: 70px;
-}
-
-.order_list_more{
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom: 20px;
-    background-color: #DEDEDE;
-    width: 80px;
-    height: 70px;
-}
-
-h4{
-    text-align: center;
-    margin-top: 15px;
-    font-size: small;
+    height: 110px;
 }
 
 .order_list_attributes{
-    margin-top: 45px;
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+    width: 24%;
+    text-align: center;
 }
 
+.order_list_flex2{
+    display: flex;
+    background-color: #F2F2F2;
+    height: 40px;
+    justify-content: right;
+}
 
-.admin_module {
+#delivery{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+}
+
+#option{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    height: 20px;
+}
+
+#submit{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    margin-right: auto;
+    height: 20px;
+}
+
+.order_list_button{
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5px;
+    border-radius: 16px;
+}
+
+.admin_module_button{
     margin-top: 30px;
     margin-left: 5%;
     text-align: center;
     background-color: #DEDEDE;
-    color: rgb(255, 1, 1);
     border: none;
     padding: 10px 20px;
     font-size: medium;
 }
 
-
-.order_list_flex{
-    display: flex;
-    column-gap: 14%;
-}
-
-.order_list_button{
-    background-color: red;
-    padding: 5px 10px;
-    color: white;
-    float: right;
-    margin-right: 5px;
-    margin-top: 10px;
+.orders_history_button{
+    margin-top: 30px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: #DEDEDE;
+    border: none;
+    padding: 10px 20px;
+    font-size: medium;
 }
